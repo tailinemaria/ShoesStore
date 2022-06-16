@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+        
+}
+
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-between;   
+   font-family: Open Sans;
+   color: #777777;
+   font-weight: 600;
+   font-size: 24px;
+   font-style: normal;
+
+}
+
+.menuCabecalho{
+    width: 500px;    
+    display:flex;    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner{
+    width: 100vw;
+}
+
+.titulocentral{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: 1000px;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: right;
+      
+
+}
+
+
+.destaqueCentral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    margin: 30px;
+    align-items: center;
+
+}
+
+.photoLeft{
+    margin: 100px
+
+}
+
+
+.caixaOfertas{
+    background: #C2185B;   
+    height: 662px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans';
+
+
+}
+
+.tituloOferta{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    font-weight: 800;
+    font-size: 44px;
+    
+
+
+}
+
+.sapatosOferta{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;    
+    
+}
+
+.shoes1, .shoes2, .shoes3, .shoes4{
+    
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+
+.nomeProduto{
+    font-weight: bold;
+
+}
+.produtoDestaque{
+    display: flex;       
+    justify-content: center;
+    align-items: flex-end;
+    margin: 80px 20px;
+    font-family: 'Open Sans';
+
+
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20px;
+    height: 939px;
+    font-weight: 600;
+    font-size: 39px;
+
+}
+
+.leftButton{
+    width: 403px;
+    height: 99px;
+    border: none;
+    background: #C2185B;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 39px;
+    font-family: 'Open Sans';
+
+
+}
+
+.rodapé{
+    display: flex;
+    height: 248px;
+    background: #C2185B;  
+    justify-content: space-around;
+    padding: 40px;
+    color:#FFFFFF;
+    font-family: 'Open Sans';
+
+}
+
+.logoRodape{
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+    width: 350px
+    
+
+}
+
+.textoRodape{    
+    font-size:14px;
+    
+       
+}
+
+.categorias{
+    padding-top: 30px;
+}
+
+.institucional{
+    padding-top: 30px;;
+}
